@@ -8,7 +8,7 @@ import org.primefaces.model.chart.AxisType;
 import org.primefaces.model.chart.BarChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
-@ManagedBean 
+@ManagedBean ( name="vendaColunas" )
 @RequestScoped
 public class VendaColunasBean 
 {
